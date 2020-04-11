@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- Suite Begin -->
+<suite name="DemoSuite">
+
+	<!-- DemoTest1 Begin -->
+
+	<test thread-count="5" name="DemoTest1">
+
+		<packages>
+			<package name="test"></package>
+		</packages>
+
+	</test>
+</suite> 
